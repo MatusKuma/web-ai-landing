@@ -47,7 +47,7 @@ button, input, select, textarea {
 }
 
 .container {
-  width: min(1140px, calc(100% - 40px));
+  width: min(1280px, calc(100% - 40px));
   margin: 0 auto;
 }
 
@@ -61,7 +61,7 @@ button, input, select, textarea {
   z-index: 50;
   backdrop-filter: blur(18px);
   background: rgba(255, 255, 255, 0.78);
-  border-bottom: 1px solid rgba(226, 232, 240, 0.85);
+  border-bottom: 3px solid rgba(226, 232, 240, 0.85);
 }
 
 .nav {
@@ -174,14 +174,14 @@ h1, h2, h3, p {
 h1 {
   max-width: 760px;
   margin-bottom: 24px;
-  font-size: clamp(42px, 5.8vw, 74px);
+  font-size: 42px;
   line-height: 0.96;
   letter-spacing: -0.07em;
 }
 
 h2 {
   margin-bottom: 16px;
-  font-size: clamp(31px, 4vw, 52px);
+  font-size: 42px;
   line-height: 1.06;
   letter-spacing: -0.055em;
 }
@@ -196,7 +196,7 @@ h3 {
 .hero-text {
   max-width: 670px;
   color: var(--muted);
-  font-size: 19px;
+  font-size: 18px;
 }
 
 .hero-actions {
@@ -445,13 +445,13 @@ h3 {
 }
 
 .metric-one {
-  left: -18px;
+  right: -18px;
   bottom: 70px;
 }
 
 .metric-two {
   right: -18px;
-  top: 96px;
+  top: 200px;
 }
 
 .trust-strip {
@@ -498,6 +498,8 @@ h3 {
 }
 
 .cards {
+  max-width: 100000000px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 18px;

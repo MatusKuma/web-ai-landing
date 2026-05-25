@@ -102,7 +102,7 @@
             </div>
           </div>
 
-          <div class="metric-card metric-one">
+          <!-- <div class="metric-card metric-one">
             <strong>1 miesto</strong>
             <span>pre služby, kontakt a rezervácie</span>
           </div>
@@ -110,7 +110,7 @@
           <div class="metric-card metric-two">
             <strong>0 stratených dopytov</strong>
             <span>všetko môže ísť do prehľadu</span>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -374,22 +374,28 @@
           <p class="eyebrow">Kontakt</p>
           <h2>Napíšte mi, čo chcete vyriešiť.</h2>
           <p>
-            Stačí stručne popísať, či potrebujete web, rezervácie, formulár alebo pomoc so správami.
-            Pripravím vám jednoduchý návrh a orientačnú cenu.
+            Nemusíte hneď presne vedieť, aké riešenie potrebujete. Kontaktujte nás s otázkou alebo si dohodnite krátke stretnutie 
+            – telefonicky, online alebo osobne. Spoločne prejdeme vaše potreby a navrhneme riešenie, ktoré bude pre Vás dávať zmysel.
           </p>
 
           <div class="contact-box">
-            <p><strong>Email:</strong> <a href="mailto:tvoj@email.sk">tvoj@email.sk</a></p>
-            <p><strong>Telefón:</strong> <a href="tel:+421900000000">+421 900 000 000</a></p>
-            <p><strong>Lokalita:</strong> Slovensko / online</p>
+            <p><strong>Email:</strong> <a href="mailto:kuma.matus@gmail.com">kuma.matus@gmail.com</a></p>
+            <p><strong>Telefón:</strong> <a href="tel:+421900000000">+421 915 339 728</a></p>
+            <p><strong>Lokalita:</strong> Bratislava, Slovensko / online</p>
           </div>
         </div>
 
-        <form class="contact-form reveal delay-1" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-          <input type="hidden" name="form-name" value="contact" />
-          <p class="hidden">
-            <label>Nechajte prázdne: <input name="bot-field" /></label>
-          </p>
+        <form class="contact-form reveal delay-1" action="https://formsubmit.co/kuma.matus@gmail.com" method="POST">
+          <!-- 
+            DÔLEŽITÉ:
+            1. Nahraď TVOJ_EMAIL@EMAIL.SK svojou reálnou emailovou adresou.
+            2. Po prvom odoslaní formulára ti FormSubmit pošle potvrdzovací email.
+            3. Až po potvrdení adresy budú správy chodiť do inboxu.
+          -->
+          <input type="hidden" name="_subject" value="Nový dopyt z webu Mauto" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_captcha" value="true" />
+          <input type="text" name="_honey" class="hidden" tabindex="-1" autocomplete="off" />
 
           <label>
             Meno a firma
@@ -419,7 +425,7 @@
           </label>
 
           <button type="submit" class="btn btn-primary full">Odoslať správu</button>
-          <p class="form-note">Formulár je pripravený pre Netlify Forms. Na GitHub Pages bude potrebné napojiť externý formulár.</p>
+          <p class="form-note">Formulár je pripravený cez FormSubmit. Pred zverejnením nahraď v kóde TVOJ_EMAIL@EMAIL.SK svojou emailovou adresou.</p>
         </form>
       </div>
     </section>
