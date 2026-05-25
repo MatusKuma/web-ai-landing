@@ -1,21 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   <defs>
     <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-      <stop stop-color="#0f172a"/>
+      <stop stop-color="#0B1220"/>
       <stop offset="0.55" stop-color="#111827"/>
-      <stop offset="1" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#2563EB"/>
     </linearGradient>
-    <linearGradient id="card" x1="0" x2="1" y1="0" y2="1">
-      <stop stop-color="#ffffff" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#ffffff" stop-opacity="0.05"/>
+    <linearGradient id="mark" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#06B6D4"/>
     </linearGradient>
   </defs>
   <rect width="1200" height="630" fill="url(#bg)"/>
-  <circle cx="160" cy="120" r="180" fill="#14b8a6" opacity="0.22"/>
-  <circle cx="1030" cy="520" r="220" fill="#60a5fa" opacity="0.24"/>
-  <rect x="80" y="90" width="1040" height="450" rx="42" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.18"/>
-  <text x="120" y="190" fill="#93c5fd" font-family="Arial, sans-serif" font-size="28" font-weight="800" letter-spacing="4">WEBY • REZERVÁCIE • AI</text>
-  <text x="120" y="285" fill="#ffffff" font-family="Arial, sans-serif" font-size="66" font-weight="900">Weby a automatizácie</text>
-  <text x="120" y="365" fill="#ffffff" font-family="Arial, sans-serif" font-size="66" font-weight="900">pre lokálne firmy</text>
-  <text x="120" y="440" fill="#dbeafe" font-family="Arial, sans-serif" font-size="30">Moderný web, dopyty, rezervácie a AI asistent.</text>
+  <circle cx="158" cy="128" r="200" fill="#06B6D4" opacity="0.18"/>
+  <circle cx="1040" cy="515" r="245" fill="#60A5FA" opacity="0.22"/>
+  <rect x="76" y="84" width="1048" height="462" rx="46" fill="white" opacity="0.08" stroke="white" stroke-opacity="0.18"/>
+  <rect x="126" y="132" width="88" height="88" rx="24" fill="url(#mark)"/>
+  <path d="M148 191V160H156L170 181L184 160H192V191H184V174L173 190H167L156 174V191H148Z" fill="white"/>
+  <text x="238" y="188" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="54" font-weight="900">Mauto</text>
+  <text x="126" y="294" fill="#93C5FD" font-family="Arial, sans-serif" font-size="28" font-weight="800" letter-spacing="4">WEBY • REZERVÁCIE • AUTOMATIZÁCIE</text>
+  <text x="126" y="386" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="64" font-weight="900">Profesionálny web</text>
+  <text x="126" y="462" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="64" font-weight="900">pre lokálne firmy</text>
 </svg>

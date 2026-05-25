@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sarmat Web & AI | Weby a automatizácie pre lokálne firmy</title>
-  <meta name="description" content="Moderné weby, rezervačné stránky a jednoduché AI automatizácie pre malé lokálne firmy. Web, formulár, rezervácie, evidencia dopytov a mesačná správa." />
-  <meta name="theme-color" content="#111827" />
 
-  <meta property="og:title" content="Sarmat Web & AI | Weby a automatizácie pre lokálne firmy" />
+  <title>Mauto | Weby a automatizácie pre lokálne firmy</title>
+  <meta name="description" content="Moderné webstránky, rezervačné riešenia a jednoduché automatizácie pre malé lokálne firmy. Web, rezervácie, formuláre, poriadok v dopytoch a mesačná správa." />
+  <meta name="theme-color" content="#0b1220" />
+
+  <meta property="og:title" content="Mauto | Weby a automatizácie pre lokálne firmy" />
   <meta property="og:description" content="Pomáham malým firmám pôsobiť profesionálne online a nestrácať zákaznícke dopyty." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="assets/og-image.svg" />
@@ -15,12 +16,16 @@
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
   <header class="site-header" id="top">
     <nav class="nav container">
-      <a href="#top" class="brand" aria-label="Domov">
-        <span class="brand-mark">S</span>
-        <span>Sarmat Web & AI</span>
+      <a href="#top" class="brand" aria-label="Mauto domov">
+        <img src="assets/logo.svg" alt="Mauto logo" class="brand-logo" />
+        <span class="brand-text">
+          <strong>Mauto</strong>
+          <small>Web & AI</small>
+        </span>
       </a>
 
       <button class="nav-toggle" aria-label="Otvoriť menu" aria-expanded="false">
@@ -31,6 +36,7 @@
         <a href="#sluzby">Služby</a>
         <a href="#cennik">Cenník</a>
         <a href="#proces">Postup</a>
+        <a href="#omne">O mne</a>
         <a href="#kontakt" class="nav-cta">Kontakt</a>
       </div>
     </nav>
@@ -40,54 +46,70 @@
     <section class="hero section">
       <div class="container hero-grid">
         <div class="hero-copy reveal">
-          <p class="eyebrow">Weby • rezervácie • formuláre • AI automatizácie</p>
-          <h1>Moderný web a jednoduchý systém na dopyty pre vašu firmu.</h1>
+          <p class="eyebrow">Weby • rezervácie • formuláre • automatizácie</p>
+          <h1>Profesionálny web a jednoduchý systém, aby vám dopyty nezapadli.</h1>
           <p class="hero-text">
-            Tvorím rýchle, prehľadné a profesionálne weby pre malé lokálne firmy.
-            Pomôžem vám, aby zákazník rýchlo našiel kontakt, vedel sa objednať
-            a aby žiadny dopyt nezapadol.
+            Pomáham malým lokálnym firmám pôsobiť lepšie online, získať viac kontaktov
+            od zákazníkov a mať poriadok v správach, rezerváciách a formulároch.
           </p>
 
           <div class="hero-actions">
-            <a href="#kontakt" class="btn btn-primary">Chcem nezáväznú ponuku</a>
-            <a href="#sluzby" class="btn btn-secondary">Pozrieť služby</a>
+            <a href="#kontakt" class="btn btn-primary">Chcem návrh riešenia</a>
+            <a href="#cennik" class="btn btn-secondary">Pozrieť orientačné ceny</a>
           </div>
 
           <div class="hero-points" aria-label="Hlavné výhody">
-            <span>Rýchle dodanie</span>
+            <span>Jasný kontakt</span>
             <span>Mobilná verzia</span>
-            <span>Jasné ceny</span>
+            <span>Rýchle spustenie</span>
+            <span>Možná mesačná správa</span>
           </div>
         </div>
 
-        <div class="hero-card reveal delay-1" aria-label="Ukážka riešenia">
-          <div class="browser">
-            <div class="browser-top">
-              <span></span><span></span><span></span>
+        <div class="hero-visual reveal delay-1" aria-label="Ukážka webového riešenia">
+          <div class="visual-card">
+            <div class="visual-header">
+              <div class="visual-dots"><span></span><span></span><span></span></div>
+              <span>mauto.sk/demo</span>
             </div>
-            <div class="mockup">
-              <div class="mockup-hero"></div>
-              <div class="mockup-row">
-                <div></div><div></div><div></div>
+
+            <div class="visual-screen">
+              <div class="visual-hero-block">
+                <span>Lokálna firma</span>
+                <strong>Služby, kontakt a rezervácia na jednom mieste</strong>
+                <div>
+                  <button>Zavolať</button>
+                  <button>Rezervovať</button>
+                </div>
               </div>
-              <div class="mockup-panel">
-                <div class="mockup-line wide"></div>
-                <div class="mockup-line"></div>
-                <div class="mockup-buttons">
-                  <span>Zavolať</span>
-                  <span>Rezervovať</span>
+
+              <div class="visual-grid">
+                <div><strong>Služby</strong><span>Cenník a popis</span></div>
+                <div><strong>Kontakt</strong><span>Telefón, email, mapa</span></div>
+                <div><strong>Formulár</strong><span>Dopyt do prehľadu</span></div>
+              </div>
+
+              <div class="visual-inbox">
+                <div>
+                  <span class="status-dot"></span>
+                  <p><strong>Nový dopyt</strong><br>Zákazník sa pýta na termín a cenu.</p>
+                </div>
+                <div>
+                  <span class="status-dot accent"></span>
+                  <p><strong>Návrh odpovede</strong><br>Pripravené na kontrolu a odoslanie.</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="floating-card one">
-            <strong>+ nový dopyt</strong>
-            <span>uložený do prehľadu</span>
+          <div class="metric-card metric-one">
+            <strong>1 miesto</strong>
+            <span>pre služby, kontakt a rezervácie</span>
           </div>
-          <div class="floating-card two">
-            <strong>AI draft</strong>
-            <span>návrh odpovede pripravený</span>
+
+          <div class="metric-card metric-two">
+            <strong>0 stratených dopytov</strong>
+            <span>všetko môže ísť do prehľadu</span>
           </div>
         </div>
       </div>
@@ -96,16 +118,16 @@
     <section class="trust-strip">
       <div class="container strip-grid">
         <div>
-          <strong>Pre koho?</strong>
-          <span>salóny, fyzio, servisy, remeselníci, lokálne služby</span>
+          <strong>Pre malé lokálne firmy</strong>
+          <span>salóny, fyzio, autoservisy, remeselníci, predajne a služby</span>
         </div>
         <div>
-          <strong>Čo riešim?</strong>
-          <span>slabý web, chýbajúce rezervácie, chaos v dopytoch</span>
+          <strong>Bez zbytočnej zložitosti</strong>
+          <span>jednoduché riešenia, ktoré majiteľ firmy hneď pochopí</span>
         </div>
         <div>
-          <strong>Výsledok</strong>
-          <span>lepší online dojem, jasný kontakt, menej stratených správ</span>
+          <strong>S možnosťou rastu</strong>
+          <span>začnete webom, neskôr pridáte rezervácie alebo automatizáciu</span>
         </div>
       </div>
     </section>
@@ -114,52 +136,67 @@
       <div class="container">
         <div class="section-heading reveal">
           <p class="eyebrow">Služby</p>
-          <h2>Vyberiete si podľa toho, čo firma práve potrebuje.</h2>
-          <p>Od jednoduchej landing page až po web s formulárom, rezerváciou alebo AI spracovaním dopytov.</p>
+          <h2>Nie len pekná stránka. Praktické riešenie pre zákaznícke dopyty.</h2>
+          <p>
+            Vyberiete si podľa toho, čo práve potrebujete – od jednoduchej stránky až po systém,
+            ktorý pomôže s rezerváciami, formulármi a odpoveďami zákazníkom.
+          </p>
         </div>
 
         <div class="cards">
           <article class="card reveal">
             <div class="icon">01</div>
-            <h3>Landing page</h3>
-            <p>Jednostránkový web so službami, kontaktom, mapou, cenníkom a tlačidlom na zavolanie.</p>
+            <h3>Jednoduchý web</h3>
+            <p>
+              Prehľadná stránka, kde zákazník rýchlo zistí, čo ponúkate, kde vás nájde
+              a ako vás môže kontaktovať.
+            </p>
             <ul>
-              <li>mobilná verzia</li>
-              <li>základné SEO</li>
-              <li>rýchle nasadenie</li>
+              <li>služby, cenník, kontakt a mapa</li>
+              <li>tlačidlo na zavolanie alebo email</li>
+              <li>profesionálny vzhľad aj na mobile</li>
             </ul>
           </article>
 
           <article class="card reveal delay-1">
             <div class="icon">02</div>
             <h3>Web s rezerváciou</h3>
-            <p>Stránka pre služby na termín s napojením na Bookio, Calendly, Reservio alebo iný nástroj.</p>
+            <p>
+              Vhodné pre služby na termín. Zákazník klikne na tlačidlo Rezervovať
+              a objedná sa cez externý rezervačný systém.
+            </p>
             <ul>
-              <li>tlačidlo Rezervovať</li>
-              <li>prehľad služieb</li>
-              <li>jednoduchá správa termínov</li>
+              <li>napojenie na Bookio, Calendly alebo podobný nástroj</li>
+              <li>rezervačné tlačidlo priamo na webe</li>
+              <li>jednoduché vysvetlenie pre klienta</li>
             </ul>
           </article>
 
           <article class="card reveal delay-2">
             <div class="icon">03</div>
-            <h3>Smart web</h3>
-            <p>Web s formulárom, ktorý ukladá dopyty do prehľadu a pomáha ich rýchlejšie vybavovať.</p>
+            <h3>Web s prehľadom dopytov</h3>
+            <p>
+              Keď zákazník vyplní formulár, dopyt sa môže automaticky uložiť do tabuľky.
+              Firma tak vidí, kto písal, čo chce a v akom stave je vybavenie.
+            </p>
             <ul>
-              <li>formulár</li>
-              <li>Google Sheets prehľad</li>
-              <li>email notifikácie</li>
+              <li>kontaktný formulár</li>
+              <li>evidencia dopytov v Google Sheets</li>
+              <li>menej stratených správ a chaosu</li>
             </ul>
           </article>
 
           <article class="card card-dark reveal delay-3">
             <div class="icon">04</div>
-            <h3>AI asistent</h3>
-            <p>AI spracuje e-mail alebo formulár, vytiahne údaje, zaradí dopyt a pripraví návrh odpovede.</p>
+            <h3>AI pomocník na správy</h3>
+            <p>
+              Umelá inteligencia vie prečítať dopyt, vypísať podstatné informácie
+              a pripraviť návrh odpovede, ktorý si človek len skontroluje.
+            </p>
             <ul>
-              <li>AI kategorizácia</li>
-              <li>draft odpovede</li>
-              <li>follow-upy a reporty</li>
+              <li>zhrnutie správy jednoduchou rečou</li>
+              <li>vytiahnutie mena, kontaktu, služby a požiadavky</li>
+              <li>návrh odpovede bez automatického odosielania</li>
             </ul>
           </article>
         </div>
@@ -169,30 +206,30 @@
     <section class="section section-soft" id="preco">
       <div class="container two-col">
         <div class="reveal">
-          <p class="eyebrow">Prečo to riešiť</p>
-          <h2>Malý web môže robiť veľký rozdiel.</h2>
+          <p class="eyebrow">Prečo Mauto</p>
+          <h2>Technické veci preložím do jednoduchého riešenia.</h2>
           <p>
-            Veľa lokálnych firiem má dobré služby, ale online pôsobia slabšie, než v skutočnosti sú.
-            Cieľom nie je komplikovaný systém, ale praktické riešenie, ktoré zákazník pochopí za pár sekúnd.
+            Veľa malých firiem nepotrebuje veľký drahý systém. Potrebujú web, ktorý vyzerá dôveryhodne,
+            jasne ukáže služby a pomôže zákazníkovi spraviť ďalší krok – zavolať, napísať alebo rezervovať termín.
           </p>
         </div>
 
         <div class="benefits reveal delay-1">
           <div>
-            <h3>Jasný kontakt</h3>
-            <p>Zákazník hneď vidí telefón, adresu, mapu a tlačidlá na akciu.</p>
+            <h3>Lepší prvý dojem</h3>
+            <p>Moderný web pôsobí dôveryhodnejšie než neaktuálna stránka alebo iba sociálne siete.</p>
           </div>
           <div>
-            <h3>Viac dôvery</h3>
-            <p>Moderná stránka pôsobí lepšie než iba starý Facebook alebo neaktuálny web.</p>
+            <h3>Rýchlejší kontakt</h3>
+            <p>Zákazník nemusí hľadať telefón, adresu alebo cenník. Všetko má hneď pred sebou.</p>
           </div>
           <div>
-            <h3>Menej chaosu</h3>
-            <p>Dopyty z formulárov sa môžu ukladať do prehľadu a ďalej spracovať.</p>
+            <h3>Poriadok v dopytoch</h3>
+            <p>Formuláre a správy môžu byť uložené v prehľade, aby ste vedeli, čo treba vybaviť.</p>
           </div>
           <div>
-            <h3>Možnosť rastu</h3>
-            <p>Začnete jednoduchým webom a neskôr pridáte rezervácie alebo AI asistenta.</p>
+            <h3>Bez veľkého rizika</h3>
+            <p>Začnete jednoduchou stránkou. Ďalšie funkcie sa pridajú až vtedy, keď dávajú zmysel.</p>
           </div>
         </div>
       </div>
@@ -201,48 +238,64 @@
     <section class="section" id="cennik">
       <div class="container">
         <div class="section-heading reveal">
-          <p class="eyebrow">Orientančný cenník</p>
-          <h2>Jednoduché balíky bez zbytočných komplikácií.</h2>
-          <p>Presná cena závisí od rozsahu, podkladov a požadovaných funkcií.</p>
+          <p class="eyebrow">Cenník</p>
+          <h2>Orientačné balíky, aby ste vedeli, s čím počítať.</h2>
+          <p>
+            Finálna cena závisí od rozsahu, podkladov a požadovaných funkcií.
+            Pred začiatkom vždy dostanete jasný rozsah a cenu.
+          </p>
         </div>
 
         <div class="pricing-grid">
           <article class="price-card reveal">
             <h3>Web Start</h3>
             <p class="price">od 399 €</p>
-            <p>Jednoduchá prezentačná stránka pre lokálnu firmu.</p>
+            <p>Pre firmu, ktorá potrebuje jednoduchú, modernú a prehľadnú online vizitku.</p>
             <ul>
-              <li>1-stránkový web</li>
-              <li>služby, kontakt, mapa</li>
+              <li>jedna stránka so službami</li>
+              <li>kontakt, mapa, tlačidlo Zavolať</li>
               <li>mobilná verzia</li>
-              <li>2 kolá úprav</li>
+              <li>základná úprava textov a rozloženia</li>
             </ul>
-            <a href="#kontakt" class="btn btn-outline">Mám záujem</a>
+            <a href="#kontakt" class="btn btn-outline">Chcem web</a>
           </article>
 
           <article class="price-card featured reveal delay-1">
-            <div class="badge">Odporúčané</div>
-            <h3>Smart Web</h3>
-            <p class="price">od 799 €</p>
-            <p>Web s formulárom, evidenciou dopytov a možnosťou mesačnej správy.</p>
+            <div class="badge">Najpraktickejšie</div>
+            <h3>Web + rezervácia</h3>
+            <p class="price">od 599 €</p>
+            <p>Pre salóny, masáže, fyzio, trénerov alebo služby, kde sa zákazník objednáva na termín.</p>
             <ul>
               <li>všetko z Web Start</li>
-              <li>formulár + email notifikácia</li>
-              <li>Google Sheets evidencia</li>
-              <li>možnosť automatizácií</li>
+              <li>tlačidlo Rezervovať</li>
+              <li>napojenie na externý rezervačný nástroj</li>
+              <li>vysvetlenie základného používania</li>
             </ul>
-            <a href="#kontakt" class="btn btn-primary">Chcem smart web</a>
+            <a href="#kontakt" class="btn btn-primary">Chcem rezervácie</a>
           </article>
 
           <article class="price-card reveal delay-2">
-            <h3>AI Asistent</h3>
-            <p class="price">od 990 €</p>
-            <p>Spracovanie e-mailov alebo formulárov pomocou AI.</p>
+            <h3>Smart Web</h3>
+            <p class="price">od 799 €</p>
+            <p>Pre firmy, ktoré chcú mať dopyty z webu uložené na jednom mieste.</p>
             <ul>
-              <li>kategorizácia dopytov</li>
-              <li>extrakcia údajov</li>
-              <li>návrhy odpovedí</li>
-              <li>mesačný monitoring od 149 €</li>
+              <li>web + kontaktný formulár</li>
+              <li>odoslanie dopytu na email</li>
+              <li>prehľad dopytov v tabuľke</li>
+              <li>možnosť mesačnej správy</li>
+            </ul>
+            <a href="#kontakt" class="btn btn-outline">Chcem smart web</a>
+          </article>
+
+          <article class="price-card reveal delay-3">
+            <h3>AI pomocník</h3>
+            <p class="price">od 990 €</p>
+            <p>Pre firmy, ktoré dostávajú viac správ a chcú ich rýchlejšie spracovať.</p>
+            <ul>
+              <li>zhrnutie dopytov</li>
+              <li>vypísanie dôležitých údajov</li>
+              <li>návrhy odpovedí na kontrolu</li>
+              <li>mesačná správa od 149 €</li>
             </ul>
             <a href="#kontakt" class="btn btn-outline">Zistiť viac</a>
           </article>
@@ -251,8 +304,9 @@
         <div class="maintenance reveal">
           <h3>Mesačná správa od 39 €/mes.</h3>
           <p>
-            Zahŕňa technickú kontrolu, drobné úpravy v dohodnutom rozsahu, výmenu textov alebo fotiek,
-            kontrolu formulárov a základnú podporu. Väčšie zmeny sa cenia samostatne.
+            Mesačná správa môže zahŕňať technickú kontrolu webu, drobné úpravy textov alebo fotiek,
+            kontrolu formulárov, pomoc s rezervačným tlačidlom a základnú podporu.
+            Väčšie zmeny, nové sekcie alebo nové automatizácie sa cenia samostatne.
           </p>
         </div>
       </div>
@@ -261,30 +315,30 @@
     <section class="section section-dark" id="proces">
       <div class="container">
         <div class="section-heading reveal">
-          <p class="eyebrow">Postup spolupráce</p>
-          <h2>Od nápadu po spustenú stránku.</h2>
+          <p class="eyebrow">Postup</p>
+          <h2>Jednoduchá spolupráca bez technického chaosu.</h2>
         </div>
 
         <div class="steps">
           <div class="step reveal">
             <span>1</span>
-            <h3>Krátka konzultácia</h3>
-            <p>Zistíme, čo firma potrebuje: web, rezerváciu, formulár alebo automatizáciu.</p>
+            <h3>Povieme si potrebu</h3>
+            <p>Či potrebujete iba web, rezervácie, formulár alebo pomoc so správami.</p>
           </div>
           <div class="step reveal delay-1">
             <span>2</span>
-            <h3>Návrh a cena</h3>
-            <p>Dostanete jasný rozsah, cenu a informáciu, čo je zahrnuté v balíku.</p>
+            <h3>Dostanete návrh</h3>
+            <p>Napíšem, čo bude hotové, čo je v cene a koľko to bude stáť.</p>
           </div>
           <div class="step reveal delay-2">
             <span>3</span>
-            <h3>Prvá verzia</h3>
-            <p>Pripravím stránku alebo systém, ktorý následne spoločne doladíme.</p>
+            <h3>Pripravím prvú verziu</h3>
+            <p>Stránku alebo systém doladíme podľa textov, fotiek a pripomienok.</p>
           </div>
           <div class="step reveal delay-3">
             <span>4</span>
-            <h3>Spustenie a správa</h3>
-            <p>Web nasadíme na doménu a podľa dohody môžem riešiť aj mesačnú údržbu.</p>
+            <h3>Spustíme a nastavíme správu</h3>
+            <p>Web sa nasadí na doménu a podľa dohody môžem riešiť aj údržbu.</p>
           </div>
         </div>
       </div>
@@ -293,21 +347,22 @@
     <section class="section" id="omne">
       <div class="container about-grid">
         <div class="about-photo reveal" aria-label="Miesto pre fotku">
-          <div class="avatar">S</div>
-          <p>Sem môže ísť tvoja fotka</p>
+          <div class="avatar">
+            <span>M</span>
+          </div>
+          <p>Sem môže ísť tvoja fotka alebo čistý brand prvok</p>
         </div>
 
         <div class="reveal delay-1">
           <p class="eyebrow">O mne</p>
-          <h2>Praktické riešenia bez zbytočne drahých systémov.</h2>
+          <h2>Som technicky zameraný tvorca webov a jednoduchých automatizácií.</h2>
           <p>
-            Som technicky zameraný tvorca webov a automatizácií. Zameriavam sa na jednoduché,
-            rýchle a praktické riešenia pre malé firmy, ktoré chcú lepšie pôsobiť online
-            a mať väčší poriadok v dopytoch.
+            Zameriavam sa na praktické riešenia pre malé firmy – také, ktoré pomôžu zákazníkovi
+            rýchlo nájsť informácie, kontaktovať vás alebo si rezervovať termín.
           </p>
           <p>
-            Nerobím zbytočne komplikované systémy tam, kde stačí kvalitný web, jasný kontakt,
-            rezervačné tlačidlo alebo jednoduchá automatizácia.
+            Mojím cieľom nie je robiť zbytočne komplikované systémy. Najprv hľadám najjednoduchšie
+            riešenie, ktoré bude vyzerať profesionálne a bude sa dať ľahko spravovať.
           </p>
         </div>
       </div>
@@ -317,10 +372,10 @@
       <div class="container contact-grid">
         <div class="reveal">
           <p class="eyebrow">Kontakt</p>
-          <h2>Chcete web, rezervácie alebo automatizáciu?</h2>
+          <h2>Napíšte mi, čo chcete vyriešiť.</h2>
           <p>
-            Napíšte mi, čo približne potrebujete. Ozvem sa vám s jednoduchým návrhom riešenia
-            a orientačnou cenou.
+            Stačí stručne popísať, či potrebujete web, rezervácie, formulár alebo pomoc so správami.
+            Pripravím vám jednoduchý návrh a orientačnú cenu.
           </p>
 
           <div class="contact-box">
@@ -347,13 +402,13 @@
           </label>
 
           <label>
-            Čo potrebujete?
+            Čo približne potrebujete?
             <select name="service" required>
               <option value="">Vyberte možnosť</option>
               <option>Jednoduchý web</option>
               <option>Web s rezerváciou</option>
-              <option>Smart web s formulárom</option>
-              <option>AI asistent / automatizácia</option>
+              <option>Web s formulárom a prehľadom dopytov</option>
+              <option>AI pomocník na správy</option>
               <option>Nie som si istý</option>
             </select>
           </label>
@@ -364,7 +419,7 @@
           </label>
 
           <button type="submit" class="btn btn-primary full">Odoslať správu</button>
-          <p class="form-note">Formulár je pripravený pre Netlify Forms. Pri lokálnom otvorení sa iba zobrazí stránka bez reálneho odoslania.</p>
+          <p class="form-note">Formulár je pripravený pre Netlify Forms. Na GitHub Pages bude potrebné napojiť externý formulár.</p>
         </form>
       </div>
     </section>
@@ -372,7 +427,7 @@
 
   <footer class="footer">
     <div class="container footer-inner">
-      <p>© <span id="year"></span> Sarmat Web & AI. Všetky práva vyhradené.</p>
+      <p>© <span id="year"></span> Mauto. Weby a automatizácie pre lokálne firmy.</p>
       <a href="#top">Späť hore</a>
     </div>
   </footer>
