@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="sk">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Mauto | Weby a automatizácie pre lokálne firmy</title>
-  <meta name="description" content="Moderné webstránky, rezervačné riešenia a jednoduché automatizácie pre malé lokálne firmy. Web, rezervácie, formuláre, poriadok v dopytoch a mesačná správa." />
+  <meta name="description"
+    content="Moderné webstránky, rezervačné riešenia a jednoduché automatizácie pre malé lokálne firmy. Web, rezervácie, formuláre, poriadok v dopytoch a mesačná správa." />
   <meta name="theme-color" content="#0b1220" />
 
   <meta property="og:title" content="Mauto | Weby a automatizácie pre lokálne firmy" />
-  <meta property="og:description" content="Pomáham malým firmám pôsobiť profesionálne online a nestrácať zákaznícke dopyty." />
+  <meta property="og:description"
+    content="Pomáham malým firmám pôsobiť profesionálne online a nestrácať zákaznícke dopyty." />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="assets/og-image.svg" />
 
@@ -374,8 +377,10 @@
           <p class="eyebrow">Kontakt</p>
           <h2>Napíšte mi, čo chcete vyriešiť.</h2>
           <p>
-            Nemusíte hneď presne vedieť, aké riešenie potrebujete. Kontaktujte nás s otázkou alebo si dohodnite krátke stretnutie 
-            – telefonicky, online alebo osobne. Spoločne prejdeme vaše potreby a navrhneme riešenie, ktoré bude pre Vás dávať zmysel.
+            Nemusíte hneď presne vedieť, aké riešenie potrebujete. Kontaktujte nás s otázkou alebo si dohodnite krátke
+            stretnutie
+            – telefonicky, online alebo osobne. Spoločne prejdeme vaše potreby a navrhneme riešenie, ktoré bude pre Vás
+            dávať zmysel.
           </p>
 
           <div class="contact-box">
@@ -385,17 +390,11 @@
           </div>
         </div>
 
-        <form class="contact-form reveal delay-1" action="https://formsubmit.co/kuma.matus@gmail.com" method="POST">
-          <!-- 
-            DÔLEŽITÉ:
-            1. Nahraď TVOJ_EMAIL@EMAIL.SK svojou reálnou emailovou adresou.
-            2. Po prvom odoslaní formulára ti FormSubmit pošle potvrdzovací email.
-            3. Až po potvrdení adresy budú správy chodiť do inboxu.
-          -->
-          <input type="hidden" name="_subject" value="Nový dopyt z webu Mauto" />
-          <input type="hidden" name="_template" value="table" />
-          <input type="hidden" name="_captcha" value="true" />
-          <input type="text" name="_honey" class="hidden" tabindex="-1" autocomplete="off" />
+        <form class="contact-form reveal delay-1" action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="5152b617-ce57-4377-a4bd-d33bfd7e4008" />
+          <input type="hidden" name="subject" value="Nový dopyt z webu Mauto" />
+          <input type="hidden" name="from_name" value="Mauto web" />
+          <input type="checkbox" name="botcheck" class="hidden" tabindex="-1" autocomplete="off" />
 
           <label>
             Meno a firma
@@ -405,6 +404,11 @@
           <label>
             Email
             <input type="email" name="email" placeholder="vas@email.sk" required />
+          </label>
+
+          <label>
+            Telefón
+            <input type="tel" name="phone" placeholder="+421 900 000 000" />
           </label>
 
           <label>
@@ -425,7 +429,10 @@
           </label>
 
           <button type="submit" class="btn btn-primary full">Odoslať správu</button>
-          <p class="form-note">Formulár je pripravený cez FormSubmit. Pred zverejnením nahraď v kóde TVOJ_EMAIL@EMAIL.SK svojou emailovou adresou.</p>
+
+          <p class="form-note">
+            Formulár odošle správu priamo na náš email. Odpovieme vám čo najskôr.
+          </p>
         </form>
       </div>
     </section>
@@ -440,4 +447,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
