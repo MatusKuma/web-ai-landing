@@ -80,7 +80,7 @@ button, input, select, textarea {
 .brand-logo-full {
   display: block;
   height: auto;
-  width: 300px;
+  width: 200px;
   /* max-width: 220px; */
   object-fit: contain;
 }
